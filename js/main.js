@@ -1,6 +1,6 @@
 var $header = $('header');
 var $h1 = $('h1');
-var $main = $('main')
+var $main = $('main');
 var $p1 = $('main p:first-child');
 var $h2 = $('h2');
 var $li = $('li');
@@ -13,6 +13,7 @@ var $lastli2 = $('li:last-child');
 
 $header.addClass('masthead');
 $h1.removeClass('big-heading');
+$h1.addClass('logo');
 $main.addClass('wrapper');
 $p1.addClass('intro');
 $h2.addClass('slug-head');
